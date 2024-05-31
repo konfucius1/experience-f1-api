@@ -1,6 +1,7 @@
 package com.experiencef1
 
 import com.experiencef1.plugins.*
+import com.experiencef1.routes.configureRouting
 import io.ktor.server.application.*
 
 fun main(args: Array<String>) {

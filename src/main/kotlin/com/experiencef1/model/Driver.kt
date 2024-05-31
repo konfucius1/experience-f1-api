@@ -1,5 +1,8 @@
 package com.experiencef1.model
 
+import kotlinx.serialization.Serializable
+
+@Serializable
 data class Driver (
     val driverId: String,
     val permanentNumber: String,
